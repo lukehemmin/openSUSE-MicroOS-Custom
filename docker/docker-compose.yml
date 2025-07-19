@@ -1,0 +1,9 @@
+version: '3'
+services:
+  build:
+    build: .
+    volumes:
+      - ../output:/output
+      - /dev:/dev
+    container_name: microos-iso-builder
+    privileged: true

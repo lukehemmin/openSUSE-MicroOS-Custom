@@ -29,3 +29,4 @@ firstboot/MicroOS-firstboot.service
 microos-tools-*.tar.*
 locale-check/locale-check
 devel-tools/rpmorphan
+output/
